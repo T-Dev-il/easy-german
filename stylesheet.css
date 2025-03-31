@@ -243,7 +243,7 @@ main {
 .hero {
   height: calc(100svh - 5rem);
   background-color: rgb(24, 121, 68);
-  background-image: url(img/screenshot2.png);
+  background-image: url(img/Screenshot2.png);
   background-size: cover;
   display: flex;
   align-items: center;
