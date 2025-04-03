@@ -174,21 +174,6 @@ nav ul {
   width: 100%;
 }
 
-/* .menu-list li {
-  margin: 0 0.5vw;
-}
- */
-/* This gives each social media icon some space */
-/* .social-media li {
-  margin: 0 0.8vw;
-} */
-
-
-
-.social-media a{
-  padding: 0 .8vw;
-}
-
 
 nav a:any-link {
   color: #333;
@@ -199,13 +184,19 @@ nav a:any-link {
 /* nav a:hover {
   background-color: purple;
   color: white; 
-}
- */
-/* Add position relative to parent menu items */
-.menu-list a {
+  }
+  */
+  /* Add position relative to parent menu items */
+  
+  .menu-list a {
   position: relative;
   padding: 0 .5vw;
-}
+  }
+
+  .social-media a{
+    padding: 0 .8vw;
+  }
+
 
 /* Hide dropdown menus by default */
 .drop-menu {
@@ -673,12 +664,10 @@ line-height: 1.5rem;
 @media screen and (max-width: 1024px) {
 
 
+
 .menu-bar {
   flex-direction: column;
-/*   border: dashed 3px rgb(0, 0, 0);
- *//*   height: 100svh;
- */  padding: 0;
-  position: fixed;
+  padding: 0;
   width: 100%;
   background-color: white;
 
@@ -689,15 +678,8 @@ line-height: 1.5rem;
   flex-direction: column;
   justify-content: space-between;
   height: calc(100svh - 5rem);
-/*   border: solid 1px red;
- */
-
 }
 
-.sub-menu-bar a {
-  padding-left: 2rem;
-  font-size: x-large;
-}
 
 .mobile-top {
   justify-content: space-between;
@@ -707,11 +689,24 @@ line-height: 1.5rem;
 
 .menu-list {
   flex-direction: column;
+  height: 85%;
+  justify-content: space-evenly;
 }
 
-/* .social-media a {
-  padd
-} */
+.menu-list a {
+  height: auto;
+  padding: 1.5vh 2rem;
+}
+
+
+.social-media {
+  margin: 0 0 1rem 1rem;
+  align-items: flex-end;
+}
+
+.social-media a {
+  padding: 0 1rem;
+}
 
 .hamburger-button {
     display: flex;
